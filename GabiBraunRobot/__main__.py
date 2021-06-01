@@ -53,44 +53,44 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-`ð™·ðšŽðš¢ ðšƒðš‘ðšŽðš›ðšŽ!` [ðŸ‘©â€ðŸ’¼](https://telegra.ph/file/cb7d19dc04371dd81b747.jpg) `My name is` *ð™»ðšžðšŒðš¢ ð™·ðšŽðšŠðš›ðšðšðš’ðš•ðš’ðšŠ*
-`ð™¸ ðšŠðš– ðšŠðš— ð™°ðš—ðš’ðš–ðšŽ ðšƒðš‘ðšŽðš–ðšŽðš ðšðš›ðš˜ðšžðš™ ðš–ðšŠðš—ðšŠðšðšŽðš–ðšŽðš—ðš ðš‹ðš˜ðšðŸ’™
-Build by ð™¸ðšðšœ  â˜† ðš™ðš›ðš˜ and managed by ð™»ðš’ðšðšŽ ðšˆðšŠðšðšŠðš–ðš’ for Your Telegram Group , I specialize in managing anime and similar themed groups.
-ðšˆðš˜ðšž ðšŒðšŠðš— ðšðš’ðš—ðš ðš–ðš¢ ðš•ðš’ðšœðš ðš˜ðš ðšŠðšŸðšŠðš’ðš•ðšŠðš‹ðš•ðšŽ ðšŒðš˜ðš–ðš–ðšŠðš—ðšðšœ ðš ðš’ðšðš‘! ð™·ðš’ðš` *ðŸ“šð™²ðš˜ðš–ðš–ðšŠðš—ðšðšœ*   
+`𝙷𝚎𝚢 𝚃𝚑𝚎𝚛𝚎!` [👩‍💼](https://telegra.ph/file/cb7d19dc04371dd81b747.jpg) `My name is` *𝙻𝚞𝚌𝚢 𝙷𝚎𝚊𝚛𝚝𝚏𝚒𝚕𝚒𝚊*
+`𝙸 𝚊𝚖 𝚊𝚗 𝙰𝚗𝚒𝚖𝚎 𝚃𝚑𝚎𝚖𝚎𝚍 𝚐𝚛𝚘𝚞𝚙 𝚖𝚊𝚗𝚊𝚐𝚎𝚖𝚎𝚗𝚝 𝚋𝚘𝚝💙
+Build by 𝙸𝚝𝚜  ☆ 𝚙𝚛𝚘 and managed by 𝙻𝚒𝚝𝚎 𝚈𝚊𝚐𝚊𝚖𝚒 for Your Telegram Group , I specialize in managing anime and similar themed groups.
+𝚈𝚘𝚞 𝚌𝚊𝚗 𝚏𝚒𝚗𝚍 𝚖𝚢 𝚕𝚒𝚜𝚝 𝚘𝚏 𝚊𝚟𝚊𝚒𝚕𝚊𝚋𝚕𝚎 𝚌𝚘𝚖𝚖𝚊𝚗𝚍𝚜 𝚠𝚒𝚝𝚑! 𝙷𝚒𝚝` *📚𝙲𝚘𝚖𝚖𝚊𝚗𝚍𝚜*   
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="â­ðŸŒŸ AÍ™DÍ™DÍ™ MÍ™EÍ™ IÍ™NÍ™ YÍ™OÍ™UÍ™RÍ™ GÍ™RÍ™OÍ™UÍ™PÍ™ ðŸŒŸâ­",url="t.me/Lucy_Heartfilia_Robot?startgroup=true"),
+            text="⭐🌟 A͙D͙D͙ M͙E͙ I͙N͙ Y͙O͙U͙R͙ G͙R͙O͙U͙P͙ 🌟⭐",url="t.me/Lucy_Heartfilia_Robot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(
-              text="ðŸ” â˜ž ð™²ðš˜ðš–ðš–ðšŠðš—ðš & ð™·ðšŽðš•ðš™", callback_data="help_back"),
+              text="🔐 ☞ 𝙲𝚘𝚖𝚖𝚊𝚗𝚍 & 𝙷𝚎𝚕𝚙", callback_data="help_back"),
      
     ],
     [     InlineKeyboardButton(
-            text="<(_ ðŸ’¡_*)> Ã±Ã°â€ Ã¥ÃŸlÃª GrÃ°ÂµÃ¾.", url="https://telegram.dog/NotableDiscussion"),
+            text="<(_ 💡_*)> ñð†åßlê Grðµþ.", url="https://telegram.dog/NotableDiscussion"),
     
     ],
     [
         InlineKeyboardButton(
-            text="ðŸ“® â˜ž ðš„ðš™ðšðšŠðšðšŽ ð™²ðš‘ðšŠðš—ðš—ðšŽðš•", url="https://telegram.dog/lucyupdates"),
+            text="📮 ☞ 𝚄𝚙𝚍𝚊𝚝𝚎 𝙲𝚑𝚊𝚗𝚗𝚎𝚕", url="https://telegram.dog/lucyupdates"),
     ],
     [
         InlineKeyboardButton(
-            text="ðŸ“‘ ð™»ðš˜ðšðšœ", url="https://t.me/Lucylogs"),
+            text="📑 𝙻𝚘𝚐𝚜", url="https://t.me/Lucylogs"),
           
 
 
 InlineKeyboardButton(
-            text="(äººâ—•â€¿â—•) ð•Šð•Œâ„™â„™ð•†â„ð•‹ (â€¢â—¡â€¢)", url="https://telegram.dog/LucyHelpSupport"
+            text="(人◕‿◕) 𝕊𝕌ℙℙ𝕆ℝ𝕋 (•◡•)", url="https://telegram.dog/LucyHelpSupport"
         ),
 
     ],
     [
         InlineKeyboardButton(
-                    text="ðŸ—„ï¸ Source Code", url="https://github.com/"
+                    text="🗄️ Source Code", url="https://github.com/"
         ),
     ],
 ]
@@ -98,7 +98,7 @@ InlineKeyboardButton(
 
 HELP_STRINGS = """
 `Hey there! My name is` [Lucy Heartfilia]("https://telegra.ph/file/8cab4bb122cf76702b06d.jpg") 
-I'm a Eldian and help admins manage their groups with Some Powerful Titans! `Have a look at the following for an idea of some of the things I can help you with.`"""
+I'm a Anime Bot and help admins manage their groups with Some Powerful Titans! `Have a look at the following for an idea of some of the things I can help you with.`"""
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
  You can support the project via [Paytm](#) or by contacting @callme_pro\
@@ -188,7 +188,7 @@ def start(update: Update, context: CallbackContext):
                     update.effective_chat.id,
                     HELPABLE[mod].__help__,
                     InlineKeyboardMarkup(
-                        [[InlineKeyboardButton(text="â¬…ï¸ BACK", callback_data="help_back")]]
+                        [[InlineKeyboardButton(text="⬅️ BACK", callback_data="help_back")]]
                     ),
                 )
 
@@ -348,15 +348,15 @@ def gabi_about_callback(update, context):
     query = update.callback_query
     if query.data == "gabi_":
         query.message.edit_text(
-            text=""" â„¹ï¸ I'm *Lucy*, a powerful group management bot built to help you manage your group easily.
-                 \nâ I can restrict users.
-                 \nâ I can greet users with customizable welcome messages and even set a group's rules.
-                 \nâ I have an advanced anti-flood system.
-                 \nâ I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc.
-                 \nâ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
-                 \nâ I check for admins' permissions before executing any command and more stuffs
+            text=""" ℹ️ I'm *Lucy*, a powerful group management bot built to help you manage your group easily.
+                 \n❍ I can restrict users.
+                 \n❍ I can greet users with customizable welcome messages and even set a group's rules.
+                 \n❍ I have an advanced anti-flood system.
+                 \n❍ I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc.
+                 \n❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
+                 \n❍ I check for admins' permissions before executing any command and more stuffs
                  \n\n_shasa's licensed under the GNU General Public License v3.0_
-                 \nHere is the [ðŸ’¾Repository](https://github.com/).
+                 \nHere is the [💾Repository](https://github.com/).
                  \n\nIf you have any question about *Lucy*, let us know at .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -383,7 +383,7 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..ðŸ‘©â€ðŸ’¼ I'm *Lucy*
+            text=""" Hi..👩‍💼 I'm *Lucy*
                  \nHere is the [Source Code](https://github.com/HuningBots/Asnaobot) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -681,7 +681,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "I'm online now! ðŸ‘©â€ðŸ’¼")
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "I'm online now! 👩‍💼")
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to support_chat, go and check!"
