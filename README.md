@@ -4,8 +4,12 @@
 ### Telegram Group
 <p align="left"><a href="https://telegram.dog/LucyHelpSupport"> <img src="https://aleen42.github.io/badges/src/telegram.svg" /> </a></p>
 ### Bot And Channel
-* Bot Link: <a href="http://t.me/Lucy_Heartfilia_Robot"> <img src="https://img.shields.io/badge/%F0%9F%A4%96%20-GabiBraun-blue" /> </a>
-* Log Channel: <a href="https://t.me/Lucylogs"> <img src="https://img.shields.io/badge/%F0%9F%92%A1-gabibraun%20Log%20Channel-9cf" /> </a>
+
+* Bot Link: <a href="http://t.me/Lucy_Heartfilia_Robot"> <img src="https://img.shields.io/badge/%F0%9F%A4%96%20-GabiBraun-blue" /></a>
+
+* Log Channel: <a href="https://t.me/Lucylogs"> <img src="https://img.shields.io/badge/%F0%9F%92%A1-gabibraun%20Log%20Channel-9cf" /></a>
+
+&nbsp;
 
 ### Creating your own modules.
 
