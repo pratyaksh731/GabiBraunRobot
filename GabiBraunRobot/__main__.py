@@ -90,7 +90,7 @@ InlineKeyboardButton(
     ],
     [
         InlineKeyboardButton(
-                    text="🗄️ Source Code", url="https://github.com/Falco-Grice/GabiBraunRobot"
+                    text="🗄️ Source Code", url="https://github.com/pratyaksh731/LucyHeartfiliaRobot"
         ),
     ],
 ]
@@ -356,7 +356,7 @@ def gabi_about_callback(update, context):
                  \n❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
                  \n❍ I check for admins' permissions before executing any command and more stuffs
                  \n\n_shasa's licensed under the GNU General Public License v3.0_
-                 \nHere is the [💾Repository](https://github.com/Falco-Grice/GabiBraunRobot).
+                 \nHere is the [💾Repository](https://github.com/pratyaksh731/LucyHeartfiliaRobot).
                  \n\nIf you have any question about *Lucy*, let us know at .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -384,7 +384,7 @@ def Source_about_callback(update, context):
     if query.data == "source_":
         query.message.edit_text(
             text=""" Hi..👩‍💼 I'm *Lucy*
-                 \nHere is the [Source Code](https://github.com/HuningBots/Asnaobot) .""",
+                 \nHere is the [Source Code](https://github.com/pratyaksh731/LucyHeartfiliaRobot) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
