@@ -53,55 +53,55 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-`Hey There!` [👩‍💼](https://telegra.ph/file/0ed48df18f4175d61b5d8.jpg) `My name is` *Gabi Braun*
-`I am an Anime Themed group management bot.
-Build by The Ghost Hunter and managed by Falco Grice for Your Telegram Group , I specialize in managing anime and similar themed groups.
-You can find my list of available commands with! Hit` *🔐Commands*   
+`ð™·ðšŽðš¢ ðšƒðš‘ðšŽðš›ðšŽ!` [ðŸ‘©â€ðŸ’¼](https://telegra.ph/file/cb7d19dc04371dd81b747.jpg) `My name is` *ð™»ðšžðšŒðš¢ ð™·ðšŽðšŠðš›ðšðšðš’ðš•ðš’ðšŠ*
+`ð™¸ ðšŠðš– ðšŠðš— ð™°ðš—ðš’ðš–ðšŽ ðšƒðš‘ðšŽðš–ðšŽðš ðšðš›ðš˜ðšžðš™ ðš–ðšŠðš—ðšŠðšðšŽðš–ðšŽðš—ðš ðš‹ðš˜ðšðŸ’™
+Build by ð™¸ðšðšœ  â˜† ðš™ðš›ðš˜ and managed by ð™»ðš’ðšðšŽ ðšˆðšŠðšðšŠðš–ðš’ for Your Telegram Group , I specialize in managing anime and similar themed groups.
+ðšˆðš˜ðšž ðšŒðšŠðš— ðšðš’ðš—ðš ðš–ðš¢ ðš•ðš’ðšœðš ðš˜ðš ðšŠðšŸðšŠðš’ðš•ðšŠðš‹ðš•ðšŽ ðšŒðš˜ðš–ðš–ðšŠðš—ðšðšœ ðš ðš’ðšðš‘! ð™·ðš’ðš` *ðŸ“šð™²ðš˜ðš–ðš–ðšŠðš—ðšðšœ*   
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ADD GABI TO YOUR GROUP ➕️",url="t.me/Gabi_Braun_Robot?startgroup=true"),
+            text="â­ðŸŒŸ AÍ™DÍ™DÍ™ MÍ™EÍ™ IÍ™NÍ™ YÍ™OÍ™UÍ™RÍ™ GÍ™RÍ™OÍ™UÍ™PÍ™ ðŸŒŸâ­",url="t.me/Lucy_Heartfilia_Robot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(
-              text="🔐 Command & Help", callback_data="help_back"),
+              text="ðŸ” â˜ž ð™²ðš˜ðš–ðš–ðšŠðš—ðš & ð™·ðšŽðš•ðš™", callback_data="help_back"),
      
     ],
     [     InlineKeyboardButton(
-            text="🎦 H.S.A Group", url="https://telegram.dog/Hindisubsanimes"),
+            text="<(_ ðŸ’¡_*)> Ã±Ã°â€ Ã¥ÃŸlÃª GrÃ°ÂµÃ¾.", url="https://telegram.dog/NotableDiscussion"),
     
     ],
     [
         InlineKeyboardButton(
-            text="📮 Update Channel", url="https://telegram.dog/EldianGabi_UpdateChannel"),
+            text="ðŸ“® â˜ž ðš„ðš™ðšðšŠðšðšŽ ð™²ðš‘ðšŠðš—ðš—ðšŽðš•", url="https://telegram.dog/lucyupdates"),
     ],
     [
         InlineKeyboardButton(
-            text="📑 Loges", url="https://t.me/Gabi_Support_Log"),
+            text="ðŸ“‘ ð™»ðš˜ðšðšœ", url="https://t.me/Lucylogs"),
           
 
 
 InlineKeyboardButton(
-            text="🐱 SUPPORT", url="https://telegram.dog/GabiHelpSupport"
+            text="(äººâ—•â€¿â—•) ð•Šð•Œâ„™â„™ð•†â„ð•‹ (â€¢â—¡â€¢)", url="https://telegram.dog/LucyHelpSupport"
         ),
 
     ],
     [
         InlineKeyboardButton(
-                    text="🗄️ Source Code", url="https://github.com/Falco-Grice/GabiBraunRobot"
+                    text="ðŸ—„ï¸ Source Code", url="https://github.com/"
         ),
     ],
 ]
 
 
 HELP_STRINGS = """
-`Hey there! My name is` [Gabi Braun]("https://telegra.ph/file/8cab4bb122cf76702b06d.jpg") 
+`Hey there! My name is` [Lucy Heartfilia]("https://telegra.ph/file/8cab4bb122cf76702b06d.jpg") 
 I'm a Eldian and help admins manage their groups with Some Powerful Titans! `Have a look at the following for an idea of some of the things I can help you with.`"""
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project via [Paytm](#) or by contacting @The_Ghost_Hunter\
+ You can support the project via [Paytm](#) or by contacting @callme_pro\
  Supporting isnt always financial! \
  Those who cannot provide monetary support are welcome to help us develop the bot at ."""
 
@@ -188,7 +188,7 @@ def start(update: Update, context: CallbackContext):
                     update.effective_chat.id,
                     HELPABLE[mod].__help__,
                     InlineKeyboardMarkup(
-                        [[InlineKeyboardButton(text="⬅️ BACK", callback_data="help_back")]]
+                        [[InlineKeyboardButton(text="â¬…ï¸ BACK", callback_data="help_back")]]
                     ),
                 )
 
@@ -348,16 +348,16 @@ def gabi_about_callback(update, context):
     query = update.callback_query
     if query.data == "gabi_":
         query.message.edit_text(
-            text=""" ℹ️ I'm *Gabi*, a powerful group management bot built to help you manage your group easily.
-                 \n❍ I can restrict users.
-                 \n❍ I can greet users with customizable welcome messages and even set a group's rules.
-                 \n❍ I have an advanced anti-flood system.
-                 \n❍ I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc.
-                 \n❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
-                 \n❍ I check for admins' permissions before executing any command and more stuffs
+            text=""" â„¹ï¸ I'm *Lucy*, a powerful group management bot built to help you manage your group easily.
+                 \nâ I can restrict users.
+                 \nâ I can greet users with customizable welcome messages and even set a group's rules.
+                 \nâ I have an advanced anti-flood system.
+                 \nâ I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc.
+                 \nâ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
+                 \nâ I check for admins' permissions before executing any command and more stuffs
                  \n\n_shasa's licensed under the GNU General Public License v3.0_
-                 \nHere is the [💾Repository](https://github.com/Falco-Grice/GabiBraunRobot).
-                 \n\nIf you have any question about *Gabi*, let us know at .""",
+                 \nHere is the [ðŸ’¾Repository](https://github.com/).
+                 \n\nIf you have any question about *Lucy*, let us know at .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -383,8 +383,8 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..👩‍💼 I'm *gabi*
-                 \nHere is the [Source Code](https://github.com/HuntingBots/AsunaRobot) .""",
+            text=""" Hi..ðŸ‘©â€ðŸ’¼ I'm *Lucy*
+                 \nHere is the [Source Code](https://github.com/HuningBots/Asnaobot) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -681,7 +681,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "I'm online now! 👩‍💼")
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "I'm online now! ðŸ‘©â€ðŸ’¼")
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to support_chat, go and check!"
