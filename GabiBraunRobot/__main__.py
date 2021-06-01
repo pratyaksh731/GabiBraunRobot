@@ -55,7 +55,7 @@ def get_readable_time(seconds: int) -> str:
 PM_START_TEXT = """
 `𝙷𝚎𝚢 𝚃𝚑𝚎𝚛𝚎!` [👩‍💼](https://telegra.ph/file/cb7d19dc04371dd81b747.jpg) `My name is` *𝙻𝚞𝚌𝚢 𝙷𝚎𝚊𝚛𝚝𝚏𝚒𝚕𝚒𝚊*
 `𝙸 𝚊𝚖 𝚊𝚗 𝙰𝚗𝚒𝚖𝚎 𝚃𝚑𝚎𝚖𝚎𝚍 𝚐𝚛𝚘𝚞𝚙 𝚖𝚊𝚗𝚊𝚐𝚎𝚖𝚎𝚗𝚝 𝚋𝚘𝚝💙
-develop by The Ghost Hunter and (Falco Grice) and managed by  (𝙻𝚒𝚝𝚎 𝚈𝚊𝚐𝚊𝚖𝚒) and (𝙸𝚝𝚜☆𝚙𝚛𝚘) for Your Telegram Group , I specialize in managing anime and similar themed groups.
+inspired from  gabi braun and managed by  (𝙻𝚒𝚝𝚎 𝚈𝚊𝚐𝚊𝚖𝚒) and (𝙸𝚝𝚜☆𝚙𝚛𝚘) for Your Telegram Group , I specialize in managing anime and similar themed groups.
 𝚈𝚘𝚞 𝚌𝚊𝚗 𝚏𝚒𝚗𝚍 𝚖𝚢 𝚕𝚒𝚜𝚝 𝚘𝚏 𝚊𝚟𝚊𝚒𝚕𝚊𝚋𝚕𝚎 𝚌𝚘𝚖𝚖𝚊𝚗𝚍𝚜 𝚠𝚒𝚝𝚑! 𝙷𝚒𝚝` *📚𝙲𝚘𝚖𝚖𝚊𝚗𝚍𝚜*   
 """
 
@@ -90,7 +90,7 @@ InlineKeyboardButton(
     ],
     [
         InlineKeyboardButton(
-                    text="🗄️ Source Code", url="https://github.com/"
+                    text="🗄️ Source Code", url="https://github.com/Falco-Grice/GabiBraunRobot"
         ),
     ],
 ]
@@ -356,7 +356,7 @@ def gabi_about_callback(update, context):
                  \n❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
                  \n❍ I check for admins' permissions before executing any command and more stuffs
                  \n\n_shasa's licensed under the GNU General Public License v3.0_
-                 \nHere is the [💾Repository](https://github.com/).
+                 \nHere is the [💾Repository](https://github.com/Falco-Grice/GabiBraunRobot).
                  \n\nIf you have any question about *Lucy*, let us know at .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
