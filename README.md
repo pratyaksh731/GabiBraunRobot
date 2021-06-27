@@ -61,4 +61,4 @@ For starters click on this button
 The original builder of this bot
 * [Lite yagami](https://telegram.dog/Liteyagamiii)
 
-All original credits go to <a href="https://telegram.dog/The_Ghost_Hunter">The Ghost Hunter</a>, Without his efforts, this fork would not have been possible
+All original credits go to <a href="https://telegram.dog/Liteyagamiii">Lite yagami</a>, Without his efforts, this fork would not have been possible
