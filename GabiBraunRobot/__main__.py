@@ -82,6 +82,10 @@ buttons = [
             text="📑 𝙻𝚘𝚐𝚜", url="https://t.me/Lucylogs"),
           
 
+        InlineKeyboardButton(
+            text="(人◕‿◕) 𝕊𝕌ℙℙ𝕆ℝ𝕋 (•◡•)", url="https://telegram.dog/LucyHelpSupport"
+        ),
+
 
     ],
     [
