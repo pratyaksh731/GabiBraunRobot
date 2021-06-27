@@ -83,10 +83,6 @@ buttons = [
           
 
 
-InlineKeyboardButton(
-            text="(人◕‿◕) 𝕊𝕌ℙℙ𝕆ℝ𝕋 (•◡•)", url="https://telegram.dog/LucyHelpSupport"
-        ),
-
     ],
     [
         InlineKeyboardButton(
