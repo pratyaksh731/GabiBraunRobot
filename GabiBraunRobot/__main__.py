@@ -54,8 +54,7 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 `𝙷𝚎𝚢 𝚃𝚑𝚎𝚛𝚎!` [👩‍💼](https://telegra.ph/file/cb7d19dc04371dd81b747.jpg) `My name is` *𝙻𝚞𝚌𝚢 𝙷𝚎𝚊𝚛𝚝𝚏𝚒𝚕𝚒𝚊*
-`𝙸 𝚊𝚖 𝚊𝚗 𝙰𝚗𝚒𝚖𝚎 𝚃𝚑𝚎𝚖𝚎𝚍 𝚐𝚛𝚘𝚞𝚙 𝚖𝚊𝚗𝚊𝚐𝚎𝚖𝚎𝚗𝚝 𝚋𝚘𝚝💙
-inspired from  lucy Heartfilia and managed by  (𝙻𝚒𝚝𝚎 𝚈𝚊𝚐𝚊𝚖𝚒) and (𝙸𝚝𝚜☆𝚙𝚛𝚘) for Your Telegram Group , I specialize in managing anime and similar themed groups.
+`𝙸 𝚊𝚖 𝚊𝚗 𝙰𝚗𝚒𝚖𝚎 𝚃𝚑𝚎𝚖𝚎𝚍 𝚐𝚛𝚘𝚞𝚙 𝚖𝚊𝚗𝚊𝚐𝚎𝚖𝚎𝚗𝚝 𝚋𝚘𝚝💙 and managed by  (𝙻𝚒𝚝𝚎 𝚈𝚊𝚐𝚊𝚖𝚒) for Your Telegram Group , I specialize in managing anime and similar themed groups.
 𝚈𝚘𝚞 𝚌𝚊𝚗 𝚏𝚒𝚗𝚍 𝚖𝚢 𝚕𝚒𝚜𝚝 𝚘𝚏 𝚊𝚟𝚊𝚒𝚕𝚊𝚋𝚕𝚎 𝚌𝚘𝚖𝚖𝚊𝚗𝚍𝚜 𝚠𝚒𝚝𝚑! 𝙷𝚒𝚝` *📚𝙲𝚘𝚖𝚖𝚊𝚗𝚍𝚜*   
 """
 
@@ -94,7 +93,7 @@ buttons = [
 
 HELP_STRINGS = """
 `Hey there! My name is` [Lucy Heartfilia]("https://telegra.ph/file/8cab4bb122cf76702b06d.jpg") 
-I'm a Anime Bot and help admins manage their groups with Some Powerful Titans! `Have a look at the following for an idea of some of the things I can help you with.`"""
+I'm a Anime Bot and help admins manage their groups with love❣! `Have a look at the following for an idea of some of the things I can help you with.`"""
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
  You can support the project via [Paytm](#) or by contacting @callme_pro\
