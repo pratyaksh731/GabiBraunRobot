@@ -187,7 +187,7 @@ def new_member(update: Update, context: CallbackContext):
             # Welcome Devs
             elif new_mem.id in DEV_USERS:
                 update.effective_message.reply_text(
-                    "Whoa! A powerful friend of Gabi just joined, Stay Alert!",
+                    "Whoa! A powerful friend of Lucy just joined, Stay Alert!",
                     reply_to_message_id=reply,
                 )
                 continue
