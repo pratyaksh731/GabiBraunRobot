@@ -5,14 +5,14 @@ import re
 from sys import argv
 from typing import Optional
 
-from GabiBraunRobot import (ALLOW_EXCL, CERT_PATH, DONATION_LINK, LOGGER,
+from LucyHeartfiliaRobot import (ALLOW_EXCL, CERT_PATH, DONATION_LINK, LOGGER,
                           OWNER_ID, PORT, SUPPORT_CHAT, TOKEN, URL, WEBHOOK,
                           dispatcher, StartTime, telethn, updater, pgram)
 # needed to dynamically load modules
 # NOTE: Module order is not guaranteed, specify that in the config file!
-from GabiBraunRobot.modules import ALL_MODULES
-from GabiBraunRobot.modules.helper_funcs.chat_status import is_user_admin
-from GabiBraunRobot.modules.helper_funcs.misc import paginate_modules
+from LucyheartfiliaRobot.modules import ALL_MODULES
+from LucyheartfiliaRobot.modules.helper_funcs.chat_status import is_user_admin
+from LucyheartfiliaRobot.modules.helper_funcs.misc import paginate_modules
 from telegram import (InlineKeyboardButton, InlineKeyboardMarkup, ParseMode,
                       Update)
 from telegram.error import (BadRequest, ChatMigrated, NetworkError,
@@ -344,7 +344,7 @@ def help_button(update, context):
 
 
 @run_async
-def gabi_about_callback(update, context):
+def lucy_about_callback(update, context):
     query = update.callback_query
     if query.data == "gabi_":
         query.message.edit_text(
@@ -368,7 +368,7 @@ def gabi_about_callback(update, context):
                 ]
             ),
         )
-    elif query.data == "gabi_back":
+    elif query.data == "lucy_back":
         query.message.edit_text(
                 PM_START_TEXT,
                 reply_markup=InlineKeyboardMarkup(buttons),
@@ -698,7 +698,7 @@ def main():
     settings_handler = CommandHandler("settings", get_settings)
     settings_callback_handler = CallbackQueryHandler(settings_button, pattern=r"stngs_")
 
-    about_callback_handler = CallbackQueryHandler(gabi_about_callback, pattern=r"gabi_")
+    about_callback_handler = CallbackQueryHandler(lucy_about_callback, pattern=r"gabi_")
     source_callback_handler = CallbackQueryHandler(Source_about_callback, pattern=r"source_")
 
     donate_handler = CommandHandler("donate", donate)
