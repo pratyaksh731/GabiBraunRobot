@@ -9,8 +9,8 @@
 
 from pyrogram import filters
 
-from AsunaRobot.pyrogramee.pluginshelper import admins_only, get_text
-from AsunaRobot import pbot
+from LucyHeartfilia.pyrogramee.pluginshelper import admins_only, get_text
+from LucyHeartfilia import pbot
 
 
 @pbot.on_message(filters.command("tagall") & ~filters.edited & ~filters.bot)
