@@ -89,11 +89,7 @@ buttons = [
 
     ],
     
- [
-        InlineKeyboardButton(
-                    text="🗄️ Source Code", url="https://github.com/pratyaksh731/LucyHeartfiliaRobot"
-        ),
-    ],
+ 
 ]
 
 HELP_STRINGS = """
