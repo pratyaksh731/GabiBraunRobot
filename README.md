@@ -59,6 +59,6 @@ For starters click on this button
 * [Support](https://t.me/LucyHelpSupport)
 <h1><strong> Credits</strong></h1>
 The original builder of this bot
-* [The Ghost Hunter](https://telegram.dog/The_Ghost_Hunter)
+* [Lite yagami](https://telegram.dog/Liteyagamiii)
 
 All original credits go to <a href="https://telegram.dog/The_Ghost_Hunter">The Ghost Hunter</a>, Without his efforts, this fork would not have been possible
