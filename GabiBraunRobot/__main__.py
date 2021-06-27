@@ -90,6 +90,7 @@ buttons = [
     ],
     
 
+]
 
 HELP_STRINGS = """
 `Hey there! My name is` [Lucy Heartfilia]("https://telegra.ph/file/8cab4bb122cf76702b06d.jpg") 
