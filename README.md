@@ -13,7 +13,7 @@
 
 <a href="https://t.me/Lucylogs"> <img src="https://i.imgur.com/STym7qc.png" /></a>
 
-Credits - <a href="https://telegram.me/callme_pro" rel="nofollow">DEVLOPER</a>
+Credits - <a href="https://telegram.me/Liteyagamiii" rel="nofollow">DEVLOPER</a>
 
 ### Creating your own modules.
 
