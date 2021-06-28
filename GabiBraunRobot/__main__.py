@@ -58,8 +58,8 @@ I have lots of handy features, such as flood control, a warning system, a note k
 Helpful commands:
 - /start: Starts me! You've probably already used this.
 - /help: Sends this message; I'll tell you more about myself!
-
 """
+
 buttons = [
     [
         InlineKeyboardButton(
