@@ -53,7 +53,8 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-`𝙷𝚎𝚢 𝚃𝚑𝚎𝚛𝚎!` [👩‍💼](https://telegra.ph/file/7bf149008a7001c1ee800.jpg) ` My name is Lucy Heartfilia. I am a group management bot with many Extra Features, here to help you get around and keep the order in your groups!
+`𝙷𝚎𝚢 𝚃𝚑𝚎𝚛𝚎!` [👩‍💼](https://telegra.ph/file/7bf149008a7001c1ee800.jpg) `My name is Lucy Heartfilia
+`I am a group management bot with many Extra Features, here to help you get around and keep the order in your groups!
 I have lots of handy features, such as flood control, a warning system, a note keeping system, And Many More.
 Helpful commands:
 - /start: Starts me! You've probably already used this.
