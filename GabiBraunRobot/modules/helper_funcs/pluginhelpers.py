@@ -14,7 +14,7 @@ from pyrogram.errors import FloodWait, MessageNotModified
 from pyrogram.types import Chat, Message, User
 
 from GabiBraunRobot import OWNER_ID, SUPPORT_CHAT
-from GabiBraunRobot.services.pyrogram import pbot
+from GabiBraunRobot import pgarm
 
 
 def get_user(message: Message, text: str) -> [int, str, None]:
