@@ -4,7 +4,7 @@ from GabiBraunRobot.modules.helper_funcs.pluginhelpers import admins_only, get_t
 from GabiBraunRobot import pgram
 
 
-@pbot.on_message(filters.command("tagall") & ~filters.edited & ~filters.bot)
+@pgram.on_message(filters.command("tagall") & ~filters.edited & ~filters.bot)
 @admins_only
 async def tagall(client, message):
     await message.reply("`Processing.....`")
