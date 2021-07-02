@@ -1,6 +1,6 @@
 from pyrogram import filters
 
-from GabiBarunaRobot.helper_function.pluginhelpers import admins_only, get_text
+from GabiBarunaRobot.helper_funcs.pluginhelpers import admins_only, get_text
 from GabiBarunaRobot.services.pyrogram import pbot
 
 
