@@ -71,10 +71,7 @@ buttons = [
               text="🔐 ☞ 𝙲𝚘𝚖𝚖𝚊𝚗𝚍 & 𝙷𝚎𝚕𝚙", callback_data="help_back"),
      
     ],
-    [     InlineKeyboardButton(
-            text="<(_ 💡_*)> ñð†åßlê Grðµþ.", url="https://telegram.dog/NotableDiscussion"),
     
-    ],
     [
         InlineKeyboardButton(
             text="📮 ☞ 𝚄𝚙𝚍𝚊𝚝𝚎 𝙲𝚑𝚊𝚗𝚗𝚎𝚕", url="https://telegram.dog/lucyupdates"),
