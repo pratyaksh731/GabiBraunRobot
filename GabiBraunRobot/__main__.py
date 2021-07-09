@@ -62,25 +62,22 @@ I have lots of handy features, such as flood control, a warning system, a note k
 buttons = [
     [
         InlineKeyboardButton(
-            text=" A͙D͙D͙ M͙E͙ I͙N͙ Y͙O͙U͙R͙ G͙R͙O͙U͙P͙ ",url="t.me/Lucy_Heartfilia_Robot?startgroup=true"),
+            text=" ADD ME IN YOUR Group ",url="t.me/Lucy_Heartfilia_Robot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(
-              text="☞ 𝙲𝚘𝚖𝚖𝚊𝚗𝚍 & 𝙷𝚎𝚕𝚙", callback_data="help_back"),
+              text="𝙲𝚘𝚖𝚖𝚊𝚗𝚍 & 𝙷𝚎𝚕𝚙", callback_data="help_back"),
      
     ],
     
     [
         InlineKeyboardButton(
-            text="☞ 𝚄𝚙𝚍𝚊𝚝𝚎 𝙲𝚑𝚊𝚗𝚗𝚎𝚕", url="https://telegram.dog/lucyupdates"),
+            text="𝚄𝚙𝚍𝚊𝚝𝚎 𝙲𝚑𝚊𝚗𝚗𝚎𝚕", url="https://telegram.dog/lucyupdates"),
     ],
     [
+   
         InlineKeyboardButton(
-            text=" 𝙻𝚘𝚐𝚜", url="https://t.me/Lucylogs"),
-          
-
-        InlineKeyboardButton(
-            text="(人◕‿◕) 𝕊𝕌ℙℙ𝕆ℝ𝕋 (•◡•)", url="https://telegram.dog/LucyHelpSupport"
+            text="𝕊𝕌ℙℙ𝕆ℝ𝕋", url="https://telegram.dog/LucyHelpSupport"
         ),
 
     ],
