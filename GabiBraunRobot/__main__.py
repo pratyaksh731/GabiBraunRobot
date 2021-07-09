@@ -81,13 +81,7 @@ buttons = [
         InlineKeyboardButton(
             text="𝚄𝚙𝚍𝚊𝚝𝚎 𝙲𝚑𝚊𝚗𝚗𝚎𝚕", url="https://telegram.dog/lucyupdates"),
     ],
-    [
-   
-        InlineKeyboardButton(
-            text="𝕊𝕌ℙℙ𝕆ℝ𝕋", url="https://telegram.dog/LucyHelpSupport"
-        ),
-
-    ],
+    
     
  
 ]
