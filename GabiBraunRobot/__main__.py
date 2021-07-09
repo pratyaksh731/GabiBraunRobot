@@ -67,7 +67,14 @@ buttons = [
     [
         InlineKeyboardButton(
               text="𝙲𝚘𝚖𝚖𝚊𝚗𝚍 & 𝙷𝚎𝚕𝚙", callback_data="help_back"),
-     
+
+
+
+ InlineKeyboardButton(
+            text="𝕊𝕌ℙℙ𝕆ℝ𝕋", url="https://telegram.dog/LucyHelpSupport"
+
+         ),
+
     ],
     
     [
