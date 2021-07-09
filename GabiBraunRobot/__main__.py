@@ -56,35 +56,32 @@ PM_START_TEXT = """
 `𝙷𝚎𝚢 𝚃𝚑𝚎𝚛𝚎!` [👩‍💼](https://telegra.ph/file/7bf149008a7001c1ee800.jpg) `My name is Lucy Heartfilia
 `I am a group management bot with many Extra Features, here to help you get around and keep the order in your groups!
 I have lots of handy features, such as flood control, a warning system, a note keeping system, And Many More.
-Helpful commands:
-- /start: Starts me! You've probably already used this.
-- /help: Sends this message; I'll tell you more about myself!
+
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="⭐🌟 A͙D͙D͙ M͙E͙ I͙N͙ Y͙O͙U͙R͙ G͙R͙O͙U͙P͙ 🌟⭐",url="t.me/Lucy_Heartfilia_Robot?startgroup=true"),
+            text=" A͙D͙D͙ M͙E͙ I͙N͙ Y͙O͙U͙R͙ G͙R͙O͙U͙P͙ ",url="t.me/Lucy_Heartfilia_Robot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(
-              text="🔐 ☞ 𝙲𝚘𝚖𝚖𝚊𝚗𝚍 & 𝙷𝚎𝚕𝚙", callback_data="help_back"),
+              text="☞ 𝙲𝚘𝚖𝚖𝚊𝚗𝚍 & 𝙷𝚎𝚕𝚙", callback_data="help_back"),
      
     ],
     
     [
         InlineKeyboardButton(
-            text="📮 ☞ 𝚄𝚙𝚍𝚊𝚝𝚎 𝙲𝚑𝚊𝚗𝚗𝚎𝚕", url="https://telegram.dog/lucyupdates"),
+            text="☞ 𝚄𝚙𝚍𝚊𝚝𝚎 𝙲𝚑𝚊𝚗𝚗𝚎𝚕", url="https://telegram.dog/lucyupdates"),
     ],
     [
         InlineKeyboardButton(
-            text="📑 𝙻𝚘𝚐𝚜", url="https://t.me/Lucylogs"),
+            text=" 𝙻𝚘𝚐𝚜", url="https://t.me/Lucylogs"),
           
 
         InlineKeyboardButton(
             text="(人◕‿◕) 𝕊𝕌ℙℙ𝕆ℝ𝕋 (•◡•)", url="https://telegram.dog/LucyHelpSupport"
         ),
-
 
     ],
     
